@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arron Chen - Machine Learning Engineer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .container {
+            max-width: 1200px;
+        }
+
+        .navbar {
+            background-color: #333;
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: #fff !important;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-top: 60px;
+            margin-bottom: 40px;
+        }
+
+        #hero {
+            background-color: #f8f9fa;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        #hero img {
+            width: 200px;
+            border-radius: 50%;
+        }
+
+        #hero h1 {
+            margin-top: 20px;
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        #hero p {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+
+        #experience, #projects, #education, #skills {
+            background-color: #ffffff;
+            padding: 60px 0;
+        }
+
+        .experience-item, .project-item {
+            margin-bottom: 40px;
+        }
+
+        .experience-item h3, .project-item h4, .education-item h3, .skills-item h3 {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .experience-item ul, .project-item ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        #contact {
+            background-color: #f8f9fa;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        #contact form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#hero">Arron Chen</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <img src="Professional Headshot1.jpg" alt="Arron Chen Headshot">
+            <h1>Xiaoyu (Arron) Chen</h1>
+            <p>Machine Learning Engineer | BMO</p>
+            <p>Master of Management Analytics graduate with a passion for applying machine learning to solve complex problems. Currently working at BMO as a Machine Learning Engineer.</p>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="experience-item">
+                <h3>Machine Learning Engineer, BMO</h3>
+                <p><strong>Sep 2024 – Present</strong></p>
+                <ul>
+                    <li>Leading the development and deployment of machine learning models focused on optimizing anti-money laundering (AML) processes.</li>
+                    <li>Collaborating with cross-functional teams to integrate machine learning models into production systems and ensure scalability.</li>
+                    <li>Building and refining MLOps pipelines to streamline the model lifecycle, including monitoring and maintenance.</li>
+                    <li>Leveraging advanced algorithms like XGBoost and neural networks to improve model accuracy and performance in real-world applications.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Manager - AML Model Validation, RBC</h3>
+                <p><strong>Jul 2023 – Sep 2024</strong></p>
+                <ul>
+                    <li>Spearheaded comprehensive validations of AML models, utilizing machine learning algorithms like XGBoost and Keras Neural Networks.</li>
+                    <li>Enhanced the MLOps framework by conducting ongoing monitoring of model performance using key metrics and BTL testing.</li>
+                    <li>Developed an automated Tableau dashboard for KPI and KRI reporting, reducing reporting time from 5 days to 1 day.</li>
+                    <li>Effectively communicated validation results to stakeholders, supporting compliance and audit requirements.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Data Scientist Intern, Hudson's Bay</h3>
+                <p><strong>Jan 2023 – Jun 2023</strong></p>
+                <ul>
+                    <li>Led an NLP project to extract product attributes using Large Language Models (LLMs) and text-matching algorithms.</li>
+                    <li>Developed a product attribute dictionary, enhancing the search engine with a potential $1.7M annual sales boost per 1% increase in search conversion rates.</li>
+                    <li>Fine-tuned a Transformer-based BERT NER model, using transfer learning and hyperparameter tuning with Optuna.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Highlighted Projects</h2>
+            <div class="project-item">
+                <h4>Detecting Money Laundering with Scotiabank</h4>
+                <ul>
+                    <li>Conducted high-stakes analysis using fuzzy search and block indexing, identifying 600 potential high-risk individuals from 1 million accounts.</li>
+                    <li>Applied machine learning techniques (SMOTE, ENN) for bias correction and performed network analysis to detect criminal networks.</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h4>Automated EDA Tool for Data Quality Analysis</h4>
+                <ul>
+                    <li>Developed an automated Exploratory Data Analysis (EDA) tool to identify data quality issues, improving operational efficiency and standardization.</li>
+                    <li>Generated reports and visualizations for missing values, outliers, statistical distributions, and correlations.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <h3>Rotman School of Management, University of Toronto</h3>
+                <p><strong>Master of Management Analytics, 2023</strong></p>
+                <p>GPA: 3.82/4.0. Awarded Dean’s List (top 20%) upon graduation.</p>
+            </div>
+            <div class="education-item">
+                <h3>University of Waterloo</h3>
+                <p><strong>Bachelor of Mathematics, Double Major in Actuarial Science and Statistics, 2022</strong></p>
+                <p>Graduated with Distinction and Entrance Scholarship.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-item">
+                <h3>Programming & Tools</h3>
+                <p>Python, SQL, VBA, SAS, Dataiku, Azure, Databricks, Snowflake, Tableau, Power BI</p>
+            </div>
+            <div class="skills-item">
+                <h3>Specializations</h3>
+                <p>AML Model Validation, Machine Learning, NLP, Model Monitoring, EDA, MLOps</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p>Interested in collaborating or discussing data science? Reach out to me via the form below!</p>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="John Doe">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Your Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="johndoe@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your message..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Arron Chen | Machine Learning Engineer</p>
+        <p><a href="mailto:arronchen520@gmail.com">arronchen520@gmail.com</a> | <a href="https://www.linkedin.com/in/arronchen" target="_blank">LinkedIn</a></p>
+    </footer>
+
+    <!-- Bootstrap JavaScript Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
